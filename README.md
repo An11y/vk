@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# Приложение управления записями
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Приложение для работы с таблицей записей с возможностью добавления новых записей через форму.
 
-## Available Scripts
+## Функциональность
 
-In the project directory, you can run:
+- Таблица с данными (15 полей)
+- Бесконечная подгрузка данных при прокрутке (Infinite Loading)
+- Форма добавления новых записей с валидацией
+- Фильтрация и сортировка данных
+- Адаптивный дизайн
+- Темная/светлая темы
 
-### `npm start`
+## Технологии
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React + TypeScript
+- Material UI для компонентов интерфейса
+- Redux Toolkit для управления состоянием
+- JSON Server в качестве бэкенда
+- Jest для тестирования
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Почему Redux Toolkit?
 
-### `npm test`
+В проекте используется Redux Toolkit как стейт-менеджер по следующим причинам:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Оптимизация для типичных сценариев** - работа с асинхронной загрузкой данных и Infinite Loading требует четкого управления состоянием.
+2. **Типизация с TypeScript** - обеспечивает безопасность типов и автодополнение.
+3. **Уменьшение шаблонного кода** - RTK избавляет от необходимости писать много boilerplate-кода.
+4. **Встроенные инструменты для асинхронных операций** - createAsyncThunk идеально подходит для работы с API.
 
-### `npm run build`
+## Запуск проекта
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Предварительные требования
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js 14.x или выше
+- npm или yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Установка зависимостей
 
-### `npm run eject`
+```bash
+npm install
+# или
+yarn
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Запуск JSON Server (API)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run server
+# или
+yarn server
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+JSON Server будет запущен на порту 3001.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Запуск приложения
 
-## Learn More
+```bash
+npm start
+# или
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Приложение будет доступно по адресу [http://localhost:3000](http://localhost:3000).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Тестирование
+
+```bash
+npm test
+# или
+yarn test
+```
+
+## Структура проекта
+
+```
+/src
+  /api         - API клиент и запросы к серверу
+  /components  - React компоненты
+  /store       - Redux хранилище и слайсы
+  /tests       - Тесты
+  /types       - TypeScript типы
+  /utils       - Вспомогательные функции
+```
+
+## Дополнительная информация
+
+Приложение использует локальную базу данных JSON Server. Файл `db.json` в корне проекта содержит начальные данные для приложения.
