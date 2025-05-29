@@ -1,0 +1,218 @@
+{
+  "records": [
+    {
+      "id": "1001",
+      "name": "Иван",
+      "email": "ivanov@gamil.com",
+      "phone": "+7 (912) 345-67-89",
+      "position": "Старший разработчик",
+      "department": "IT",
+      "salary": 150000,
+      "status": "Активный",
+      "address": "г. Москва, ул. Пушкина, д. 10, кв. 25",
+      "skills": [
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "education": "Высшее",
+      "languages": [
+        "Английский",
+        "Немецкий"
+      ],
+      "experience": 5
+    },
+    {
+      "id": "1002",
+      "name": "Lera",
+      "email": "petrova@gmail.com",
+      "phone": "+7 (925) 123-45-67",
+      "position": "UI/UX Дизайнер",
+      "department": "Дизайн",
+      "salary": 120000,
+      "startDate": "2021-11-01",
+      "status": "В отпуске",
+      "skills": [
+        "Figma",
+        "Photoshop",
+        "UI/UX",
+        "Adobe XD"
+      ],
+      "birthDate": "1992-08-15",
+      "education": "Высшее",
+      "languages": [
+        "Английский"
+      ],
+      "experience": 3
+    },
+    {
+      "id": "1003",
+      "name": "Алекс",
+      "email": "sidorov@example.com",
+      "phone": "+7 (917) 987-65-43",
+      "position": "Менеджер проектов",
+      "department": "Управление",
+      "salary": 180000,
+      "startDate": "2020-06-22",
+      "status": "Активный",
+      "address": "г. Екатеринбург, ул. Ленина, д. 25, кв. 12",
+      "birthDate": "1985-12-03",
+      "education": "Высшее экономическое",
+      "languages": [
+        "Английский",
+        "Французский"
+      ],
+      "experience": 8
+    },
+    {
+      "id": "1004",
+      "name": "Катя",
+      "email": "smirnova@gmail.com",
+      "phone": "+7 (903) 765-43-21",
+      "position": "HR-специалист",
+      "department": "HR",
+      "salary": 95000,
+      "startDate": "2023-01-15",
+      "status": "Активный",
+      "address": "г. Москва, Ленинградский пр., д. 80, кв. 315",
+      "skills": [
+        "Переговоры",
+        "Подбор персонала",
+        "CRM",
+        "Адаптация"
+      ],
+      "birthDate": "1994-02-28",
+      "education": "Высшее психологическое",
+      "languages": [
+        "Английский",
+        "Испанский"
+      ],
+      "experience": 2
+    },
+    {
+      "id": "1005",
+      "name": "Дмитрий",
+      "email": "kozlov@gmail.com",
+      "phone": "+7 (901) 234-56-78",
+      "position": "Системный администратор",
+      "skills": [
+        "Linux",
+        "Windows Server",
+        "Docker",
+        "Kubernetes"
+      ],
+      "birthDate": "1988-07-12",
+      "education": "Высшее техническое",
+      "languages": [
+        "Английский"
+      ],
+      "experience": 6
+    },
+    {
+      "id": "1006",
+      "name": "Лера",
+      "email": "lera@gmail.com",
+      "phone": "+7 (999) 876-54-32",
+      "position": "Маркетолог",
+      "department": "Маркетинг",
+      "salary": 130000,
+      "startDate": "2022-09-01",
+      "status": "Активный",
+      "address": "г. Казань, ул. Баумана, д. 32, кв. 17",
+      "skills": [
+        "SMM",
+        "SEO",
+        "Контент-маркетинг",
+        "Аналитика"
+      ],
+      "birthDate": "1991-11-05",
+      "education": "Высшее экономическое",
+      "languages": [
+        "Английский",
+        "Китайский"
+      ],
+      "experience": 4
+    },
+    {
+      "id": "1007",
+      "name": "Артем",
+      "email": "artem@example.com",
+      "phone": "+7 (916) 543-21-09",
+      "position": "QA-инженер",
+      "department": "IT",
+      "salary": 125000,
+      "startDate": "2022-01-20",
+      "birthDate": "1993-03-17",
+      "education": "Высшее",
+      "languages": [
+        "Английский"
+      ],
+      "experience": 3
+    },
+    {
+      "id": "1008",
+      "name": "Мария",
+      "email": "maria@gmail.com",
+      "phone": "+7 (905) 432-10-98",
+      "position": "Бухгалтер",
+      "department": "Финансы",
+      "salary": 105000,
+      "startDate": "2021-08-15",
+      "status": "Активный",
+      "address": "г. Ростов-на-Дону, ул. Большая Садовая, д. 12, кв. 54",
+      "skills": [
+        "1C",
+        "Excel",
+        "Финансовый анализ"
+      ],
+      "birthDate": "1987-09-23",
+      "education": "Высшее экономическое",
+      "languages": [
+        "Английский"
+      ],
+      "experience": 7
+    },
+    {
+      "id": "1009",
+      "name": "Кирилл",
+      "email": "kirill@gmail.com",
+      "phone": "+7 (908) 765-43-21",
+      "position": "Frontend-разработчик",
+      "department": "Разработка",
+      "salary": 140000,
+      "startDate": "2022-06-10",
+      "status": "Активный",
+      "address": "г. Нижний Новгород, ул. Минина, д. 23, кв. 45",
+      "skills": [
+        "JavaScript",
+        "Vue",
+        "CSS",
+        "HTML5"
+      ],
+      "birthDate": "1995-01-30",
+      "education": "Высшее техническое",
+      "languages": [
+        "Английский",
+        "Польский"
+      ],
+      "experience": 2
+    },
+    {
+      "id": "1010",
+      "name": "Софья",
+      "email": "lebedeva@gmail.com",
+      "phone": "+7 (919) 876-54-32",
+      "position": "Аналитик данных",
+      "department": "Аналитика",
+      "birthDate": "1990-10-14",
+      "education": "Магистр",
+      "languages": [
+        "Английский",
+        "Немецкий",
+        "Французский"
+      ],
+      "experience": 5
+    }
+  ]
+}
